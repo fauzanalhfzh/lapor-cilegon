@@ -2,7 +2,7 @@
 
 namespace App\Repositories;
 
-use App\interfaces\ReportRepositoryInterface;
+use App\Interfaces\ReportRepositoryInterface;
 use App\Models\Report;
 use App\Models\ReportCategory;
 use Illuminate\Contracts\Database\Eloquent\Builder;

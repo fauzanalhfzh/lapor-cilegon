@@ -2,7 +2,7 @@
 
 namespace App\Repositories;
 
-use App\interfaces\ReportCategoryRepositoryInterface;
+use App\Interfaces\ReportCategoryRepositoryInterface;
 use App\Models\ReportCategory;
 
 class ReportCategoryRepository implements ReportCategoryRepositoryInterface

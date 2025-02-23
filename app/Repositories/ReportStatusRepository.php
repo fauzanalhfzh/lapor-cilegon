@@ -2,7 +2,7 @@
 
 namespace App\Repositories;
 
-use App\interfaces\ReportStatusRepositoryInterface;
+use App\Interfaces\ReportStatusRepositoryInterface;
 use App\Models\ReportStatus;
 
 class ReportStatusRepository implements ReportStatusRepositoryInterface

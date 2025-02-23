@@ -2,7 +2,7 @@
 
 namespace App\Repositories;
 
-use App\interfaces\ResidentRepositoryInterface;
+use App\Interfaces\ResidentRepositoryInterface;
 use App\Models\Resident;
 use App\Models\User;
 
