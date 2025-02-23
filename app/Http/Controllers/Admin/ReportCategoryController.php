@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\StoreReportCategoryRequest;
 use App\Http\Requests\UpdateReportCategoryRequest;
-use App\interfaces\ReportCategoryRepositoryInterface;
+use App\Interfaces\ReportCategoryRepositoryInterface;
 use RealRashid\SweetAlert\Facades\Alert as Swal;
 
 class ReportCategoryController extends Controller

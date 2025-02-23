@@ -3,8 +3,8 @@
 namespace App\Http\Controllers\User;
 
 use App\Http\Controllers\Controller;
-use App\interfaces\ReportCategoryRepositoryInterface;
-use App\interfaces\ReportRepositoryInterface;
+use App\Interfaces\ReportCategoryRepositoryInterface;
+use App\Interfaces\ReportRepositoryInterface;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller

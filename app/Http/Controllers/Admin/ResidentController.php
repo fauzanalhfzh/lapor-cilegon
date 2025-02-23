@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\StoreResidentRequest;
 use App\Http\Requests\UpdateResidentRequest;
-use App\interfaces\ResidentRepositoryInterface;
+use App\Interfaces\ResidentRepositoryInterface;
 use RealRashid\SweetAlert\Facades\Alert as Swal;
 
 class ResidentController extends Controller

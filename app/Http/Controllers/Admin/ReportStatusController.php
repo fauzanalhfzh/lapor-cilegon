@@ -5,8 +5,8 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\StoreReportStatusRequest;
 use App\Http\Requests\UpdateReportStatusRequest;
-use App\interfaces\ReportRepositoryInterface;
-use App\interfaces\ReportStatusRepositoryInterface;
+use App\Interfaces\ReportRepositoryInterface;
+use App\Interfaces\ReportStatusRepositoryInterface;
 use RealRashid\SweetAlert\Facades\Alert as Swal;
 
 class ReportStatusController extends Controller

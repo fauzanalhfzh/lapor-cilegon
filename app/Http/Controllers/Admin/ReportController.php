@@ -5,9 +5,9 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\StoreReportRequest;
 use App\Http\Requests\UpdateReportRequest;
-use App\interfaces\ReportCategoryRepositoryInterface;
-use App\interfaces\ReportRepositoryInterface;
-use App\interfaces\ResidentRepositoryInterface;
+use App\Interfaces\ReportCategoryRepositoryInterface;
+use App\Interfaces\ReportRepositoryInterface;
+use App\Interfaces\ResidentRepositoryInterface;
 use RealRashid\SweetAlert\Facades\Alert as Swal;
 use Illuminate\Http\Request;
 

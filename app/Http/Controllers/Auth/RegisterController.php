@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\StoreResidentRequest;
-use App\interfaces\ResidentRepositoryInterface;
+use App\Interfaces\ResidentRepositoryInterface;
 use Illuminate\Http\Request;
 
 class RegisterController extends Controller
