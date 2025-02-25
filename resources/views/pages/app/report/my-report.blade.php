@@ -11,8 +11,8 @@
             </a>
         </li>
         <li class="nav-item" role="presentation">
-            <a class="nav-link {{ request('status') === 'in_proccess' ? 'active' : '' }}"
-                href="{{ url()->current() }}?status=in_proccess" id="diproses-tab" role="tab">
+            <a class="nav-link {{ request('status') === 'in_process' ? 'active' : '' }}"
+                href="{{ url()->current() }}?status=in_process" id="diproses-tab" role="tab">
                 Diproses
             </a>
         </li>
