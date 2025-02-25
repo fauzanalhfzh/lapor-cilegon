@@ -35,8 +35,6 @@ class LoginController extends Controller
             return redirect()->route('home');
         }
 
-        dd('Login sebagai user berhasil');
-
         return redirect()->route('login')->withErrors([
             'email' => 'Email atau password salah'
         ]);
