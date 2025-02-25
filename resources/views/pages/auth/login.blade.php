@@ -6,7 +6,7 @@
 <h5 class="fw-bold mt-5">Selamat datang di Lapor Pak 👋</h5>
 <p class="text-muted mt-2">Silahkan masuk untuk melanjutkan</p>
 
-<button class="btn btn-primary py-2 w-100 mt-4" type="button">
+{{-- <button class="btn btn-primary py-2 w-100 mt-4" type="button">
     <i class="fa-brands fa-google me-2"></i>
     Masuk dengan Google
 </button>
@@ -15,7 +15,7 @@
     <hr class="flex-grow-1">
     <span class="mx-2">atau</span>
     <hr class="flex-grow-1">
-</div>
+</div> --}}
 
 @if (session()->has('success'))
     <div class="alert alert-success alert-dismissable d-flex align-items-center" role="alert" style="background-color: #e6f9e6; border-color: #b2e2b2;">
